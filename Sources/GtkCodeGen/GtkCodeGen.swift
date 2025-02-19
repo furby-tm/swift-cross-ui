@@ -50,6 +50,7 @@ struct GtkCodeGen {
     static let typeNameReplacements: [String: String] = [
         "Gdk.Event": "GdkEvent",
         "Gdk.EventSequence": "OpaquePointer",
+        "Gdk.GLContext": "OpaquePointer",
     ]
 
     static let interfaces: [String] = [
