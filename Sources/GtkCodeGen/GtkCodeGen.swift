@@ -89,7 +89,7 @@ struct GtkCodeGen {
             "Gesture", "EventController",
         ]
         let gtk3AllowListedClasses = ["MenuShell", "EventBox"]
-        let gtk4AllowListedClasses = ["Picture", "DropDown", "Popover"]
+        let gtk4AllowListedClasses = ["Picture", "DropDown", "Popover", "GLArea"]
         for class_ in gir.namespace.classes {
             guard
                 allowListedClasses.contains(class_.name)
